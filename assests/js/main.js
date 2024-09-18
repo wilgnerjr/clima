@@ -6,7 +6,7 @@ document.querySelector('#search').addEventListener('submit', async (event)=>{
     document.querySelector('#weather').classList.remove('show');
     showAlert(`
     Você precisa digitar uma cidade...
-    <img src="../assets/imgs/city.svg"/>
+    <img src="../assests/imgs/city.svg"/>
     `);
     return;
   }
@@ -33,7 +33,7 @@ document.querySelector('#search').addEventListener('submit', async (event)=>{
     showAlert(`
     Não foi possível localizar.
     
-    <img src="../assets/imgs/404.svg"/>
+    <img src="../assests/imgs/404.svg"/>
     `)
   }
   
